@@ -1,0 +1,21 @@
+{
+  "name": "webgl-fingerprint-protection",
+  "version": "1.0.0",
+  "description": "WebGL fingerprinting protection for browser privacy",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "node test/manual-test.js",
+    "direct-test": "node test/direct-test.js"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "crypto-browserify": "^3.12.1",
+    "playwright": "^1.38.0",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.5",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
